@@ -13,7 +13,7 @@ public class ArrayEx1                  //To check default output.
 		
 		double d[]=new double[5];
 		for(int i=0;i<d.length;i++)
-		{
+		{	
 			System.out.println(d[i]);
 		}
 		System.out.println("---------------");

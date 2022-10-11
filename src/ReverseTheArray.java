@@ -25,8 +25,8 @@ public class ReverseTheArray
 		{
 			a[i]=sc.nextInt();
 		}
-		 ReverseTheArray r=new  ReverseTheArray();
-		 r.doReverse(a);
+		 ReverseTheArray rr=new  ReverseTheArray();
+		 rr.doReverse(a);
 
 	}
 

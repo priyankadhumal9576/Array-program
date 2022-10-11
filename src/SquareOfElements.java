@@ -2,16 +2,27 @@ import java.util.Scanner;
 
 public class SquareOfElements 
 {
-	public void findSquare(int a[])
+	/*public void findSquare(int a[])
 	{
 		System.out.println(" ");
 		  System.out.println("The square of elements of array are:");
 		  for(int i=0;i<a.length;i++)
 		  {
 			  System.out.println(a[i]*a[i]);
-		  }
+		  }*/
+		  public void findSquareWithForEach(int a[])
+			{
+			  int i = 0;
+			  System.out.println("square elements are:");
+			  for(int x:a)
+			  {
+				  System.out.println(x*x);
+			  }
+			  
+			}
+				
 
-	}
+	
 
 	public static void main(String[] args)
 	{
@@ -25,8 +36,14 @@ public class SquareOfElements
 	  {
 		  a[i]=sc.nextInt();
 	  }
+	 /* for(int:a)
+	  {
+		  System.out.println(a[i]);
+	  }*/
 	  SquareOfElements s=new SquareOfElements();
-	  s.findSquare(a);
+	 // s.findSquare(a);
+	  System.out.println("The enhanced sq are");
+	  s.findSquareWithForEach(a);
 	  
 	}
 
