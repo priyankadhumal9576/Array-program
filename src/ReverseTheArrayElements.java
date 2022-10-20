@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ReverseTheArray
+public class ReverseTheArrayElements
 {
 	public void doReverse(int a[])
 	{
@@ -25,7 +25,7 @@ public class ReverseTheArray
 		{
 			a[i]=sc.nextInt();
 		}
-		 ReverseTheArray rr=new  ReverseTheArray();
+		 ReverseTheArrayElements rr=new  ReverseTheArrayElements();
 		 rr.doReverse(a);
 
 	}

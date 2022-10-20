@@ -6,7 +6,7 @@ public class RightRotate
 	public void doRotation(int a[])
 	{
 		
-		int n=3;
+		int n=3;                           //how mant time want rotation
 		for(int i=0;i<n;i++)
 		{
 			int last;

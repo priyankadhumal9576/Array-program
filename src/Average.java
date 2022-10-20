@@ -5,7 +5,7 @@ public class Average
 	{
 		int sum=0;
 		int oddCount=0;
-		int average = 0;
+		float average = 0;
 		for(int i=0;i<a.length ;i++)
 		{
 			if(a[i]%2!=0)
@@ -21,7 +21,7 @@ public class Average
 
 	public static void main(String[] args) 
 	{
-		int a[]=new int[] {5,4,3,1,9,7,23,2,42};
+		int a[]=new int[] {5,4,3,15,35,9,11};
 		Average avg=new Average();
 		avg.findAverage(a);
 

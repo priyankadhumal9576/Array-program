@@ -5,8 +5,8 @@ public class LeftRotation
 {
 	public void doLeftRotation(int a[])
 	{
-		int n=4;                         //how many times you want rotation
-		for(int i=0;i<a.length;i++)
+		int n=3;                         //how many times you want rotation
+		for(int i=0;i<n;i++)
 		{
 			int first;
 			int j;
